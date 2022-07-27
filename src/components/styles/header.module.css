@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3F585F;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.logo {
+  width: 90px;
+}
+
+/* Menu - lista */
+.lista {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 2rem;
+}
+
+.lista li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.lista li:hover {
+  color: #009B3D;
+}
+
+.lista li a {
+  color: white;
+  font-weight: bold;
+}
+
+.lista li a:hover {
+  color: tomato;
+}
+
+.secondBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.secondBox p {
+  color: #FFF0F0;
+}
+
+.toggleSession {
+  background-color: #3281C3;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 5px 1rem;
+  position: relative;
+}
+
+.toggleSession:hover {
+  background-color: #24373C;
+  border-color: white;
+}
+
+/* Box cart */
+.boxCart {
+  position: relative;
+}
+
+.boxCart box-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.boxCart span {
+  background-color: #DD462B;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: absolute;
+  top: 1.2rem;
+  left: 1.7rem;
+}

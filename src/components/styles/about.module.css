@@ -1,0 +1,22 @@
+.about {
+  text-align: center;
+}
+
+.title {
+  margin: 3rem 0 2rem 0;
+  font-weight: bold;
+  font-size: 2em;
+  color: navy;
+}
+
+.parrafo {
+  color: #383838;
+  margin: auto 10%;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.image {
+  margin-top: 4rem;
+  width: 500px;
+}
